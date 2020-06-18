@@ -7,7 +7,8 @@ class DrawBoard extends CustomPainter {
   }
 
   @override
-  void paint(Canvas canvas, Size size) {
+  void paint(Canvas canvas, Size size)
+  {
     final mainBoardPaint = Paint()
       ..style = PaintingStyle.fill
       ..color = Colors.white

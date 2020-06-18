@@ -28,8 +28,11 @@ class DrawMovesBoard extends CustomPainter {
             movesSquarePaint);
       }
     }
-    canvas.save();
-    canvas.restore();
+    canvas.save(
+    );
+    canvas.restore(
+
+    );
   }
 
   @override

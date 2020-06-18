@@ -20,9 +20,13 @@ class Board extends StatelessWidget {
       height: MediaQuery.of(context).size.height,
       padding: EdgeInsets.symmetric(horizontal: 10),
       child: CustomPaint(
-        painter: DrawBoard(),
+        painter: DrawBoard(
+
+        ),
         child: CustomPaint(
-          painter: DrawMovesBoard(),
+          painter: DrawMovesBoard(
+
+          ),
           child: CustomPaint(
             painter: DrawPlayerDen(denColors: playerDenColours),
             child: CustomPaint(
